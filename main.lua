@@ -24,7 +24,7 @@ require 'src/Dependencies'
 function love.load()
     love.graphics.setDefaultFilter('nearest', 'nearest')
     love.graphics.setFont(gFonts['medium'])
-    love.window.setTitle('Super 50 Bros.')
+    love.window.setTitle('Mario Mini Project')
 
     math.randomseed(os.time())
     
